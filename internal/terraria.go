@@ -54,8 +54,8 @@ func (server *Server) Start() error {
 
 	fmt.Println("Server starting...")
 	// server.ShutdownOnExit()
-	server.startInputLoop(ctx)
-	server.startAutosaveLoop(ctx)
+	// server.startInputLoop(ctx)
+	// server.startAutosaveLoop(ctx)
 	server.startSigtermHandler(ctx)
 
 	// wait for exit
